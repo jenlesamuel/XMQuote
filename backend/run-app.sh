@@ -1,0 +1,6 @@
+#/bin/bash 
+
+php-fpm
+composer install
+php artisan migrate
+php artisan db:seed
